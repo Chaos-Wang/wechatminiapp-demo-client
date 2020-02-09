@@ -1,0 +1,37 @@
+ <view class="page">
+    <view class="page__bd">
+        <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">我的关注</view>
+            <view class="weui-panel__bd">
+                <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="https://wx.chaoswang.cn/weapp/image/icon1.jpeg" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">test user 1</view>
+                        <view class="weui-media-box__desc">签名一</view>
+                    </view>
+                </navigator>
+                <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="https://wx.chaoswang.cn/weapp/image/icon8.jpg" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">test user 2</view>
+                        <view class="weui-media-box__desc">签名二</view>
+                    </view>
+                </navigator>
+                <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="https://wx.chaoswang.cn/weapp/image/icon9.jpeg" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">test user 3</view>
+                        <view class="weui-media-box__desc">签名三</view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+
+</view>
+</view>

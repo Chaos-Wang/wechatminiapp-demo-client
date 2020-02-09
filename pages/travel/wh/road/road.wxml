@@ -1,0 +1,9 @@
+
+<scroll-view class="help-info" scroll-y="true" style="height:{{scrollHeight}}px">
+    <image lazy-load="true" src="https://wx.chaoswang.cn/weapp/image/wh(1).png" mode="widthFix"></image>
+    <image lazy-load="true" src="https://wx.chaoswang.cn/weapp/image/wh(2).png" mode="widthFix"></image>
+    <image lazy-load="true" src="https://wx.chaoswang.cn/weapp/image/wh(3).png" mode="widthFix"></image>
+    <image lazy-load="true" src="https://wx.chaoswang.cn/weapp/image/wh(4).png" mode="widthFix"></image>
+    <image lazy-load="true" src="https://wx.chaoswang.cn/weapp/image/wh(5).png" mode="widthFix"></image>
+
+</scroll-view>

@@ -1,0 +1,31 @@
+<!--client/pages/travel/st/st.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">生态路线</view>
+        <view class="page__desc">体验海南的山河与生灵</view>
+    </view>
+   <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">路线推荐</view>
+            <view class="weui-panel__bd">
+            <navigator url="./st_road/st_road">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">候鸟保护计划</view>
+                    <view class="weui-media-box__desc">海南岛地处热带季风区，岛内拥有独一无二的自然环境和保存完好的森林植被。湖泊、滩涂、红树林、农田、绿地、热带雨林等丰富多样的自然条件是鸟类栖息的天堂。</view>
+            </view>
+            </navigator>
+
+            <navigator url="./st_road/st_road">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">保护海龟计划</view>
+                    <view class="weui-media-box__desc">“海南之窗”邀请有爱心的你来到海南省海洋环保协会海龟保护基地（文昌会文镇），学习海龟保护的相关知识，亲手为它们清理海洋，刷背喂食，运气好的话还能见证小海龟重返大海的神圣时刻！</view>
+                </view>
+            </navigator>
+            </view>
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+        </view>
+        </view>

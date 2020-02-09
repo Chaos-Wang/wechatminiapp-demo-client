@@ -1,0 +1,12 @@
+<view class="divImg">
+        <view class="weui-progress">
+            <view class="weui-progress__bar">
+                <progress percent="{{progress}}" stroke-width="3" />
+            </view>
+
+        </view>
+</view>
+<view class='imagesize'>
+  <image src="https://wx.chaoswang.cn/weapp/image/logo.jpg"  class="s_imgs" mode="aspectFill" style='height: 400rpx' >
+  </image>
+</view>

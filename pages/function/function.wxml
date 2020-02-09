@@ -1,0 +1,22 @@
+<view class="page">
+
+<view>
+        <image  src="https://wx.chaoswang.cn/weapp/image/素材1.jpg" class="s_imgs" mode="aspectFit"/>
+        <view class="page__hd">
+        <view class="page__title">更多功能</view>
+            </view>
+</view>
+
+<view>
+    <view class="page__bd">
+        <view class="weui-grids">
+            <block wx:for="{{grids}}" wx:key="item">
+                <navigator url="{{item.url}}" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="https://wx.chaoswang.cn/weapp/image/{{item.name}}.png" />
+                    <view class="weui-grid__label">{{item.name_s}}</view>
+                </navigator>
+            </block>
+        </view>
+    </view>
+</view>
+</view>

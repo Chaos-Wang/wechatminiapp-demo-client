@@ -1,0 +1,46 @@
+ <view class="page">
+    <view class="page__bd">
+        <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">我的旅行攻略Live</view>
+            <view class="weui-panel__bd">
+                <navigator url="../travel/fp/load/load" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="{{icon60}}" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">标题一</view>
+                        <view class="weui-media-box__desc">内容一</view>
+                    </view>
+                </navigator>
+                <navigator url="../travel/fp/load/load" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="{{icon60}}" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">标题二</view>
+                        <view class="weui-media-box__desc">内容二</view>
+                    </view>
+                </navigator>
+                <navigator url="../travel/fp/load/load" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="{{icon60}}" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">标题三</view>
+                        <view class="weui-media-box__desc">内容三</view>
+                    </view>
+                </navigator>
+                <navigator url="../travel/fp/load/load" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="{{icon60}}" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">标题四</view>
+                        <view class="weui-media-box__desc">内容四</view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+
+</view>
+</view>

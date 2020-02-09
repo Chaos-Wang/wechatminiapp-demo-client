@@ -1,0 +1,21 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">海南景点全景体验</view>
+        <view class="page__desc">目前只接入了部分景点，未来还将加入更多</view>
+    </view>
+    <view class="page__bd page__bd_spacing">
+        <view class="weui-flex">
+            <view class="weui-flex__item"><navigator url='./nst'><view class="placeholder">南山佛教文化苑</view></navigator></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><navigator url='./tyhj'><view class="placeholder">天涯海角</view></navigator></view>
+            <view class="weui-flex__item"><navigator url='./lht'><view class="placeholder">鹿回头</view></navigator></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><navigator url='./wzz'><view class="placeholder">蜈支洲岛</view></navigator></view>
+            <view class="weui-flex__item"><navigator url='./dxdt'><view class="placeholder">大小洞天</view></navigator></view>
+            <view class="weui-flex__item"><navigator url='./xd'><view class="placeholder">西岛</view></navigator></view>
+        </view>
+      
+    </view>
+</view>

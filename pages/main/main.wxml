@@ -1,0 +1,96 @@
+
+<view class="container more">
+  <view class="user flex-wrp">
+    <view class="avatar flex-item">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    </view>
+    <view class="user-info flex-item">
+      <text class='userinfo-nickname' >{{userInfo.nickName}}</text>
+      <text class="edit">查看或编辑个人主页</text>
+    </view>
+  </view>
+
+  <view class="my">
+    
+    <navigator url='./gz/gz'>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="https://wx.chaoswang.cn/weapp/image/eye.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的关注</text>
+      </view>
+    </view>
+    </navigator>
+
+        <navigator url='./fs/fs'>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="https://wx.chaoswang.cn/weapp/image/fork.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的粉丝</text>
+      </view>
+    </view>
+    </navigator>
+
+    <navigator url='./zd/zd'>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="https://wx.chaoswang.cn/weapp/image/bill.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的账单</text>
+      </view>
+    </view>
+    </navigator>
+
+    <navigator url='./route/route'>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="https://wx.chaoswang.cn/weapp/image/star.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的路线</text>
+      </view>
+    </view>
+    </navigator>
+
+    
+    <navigator url='./live/live'>
+    <view class="my-item flex-wrp" url='./live/live'>
+      <view class="myitem-icon flex-item" >
+        <image src="https://wx.chaoswang.cn/weapp/image/live.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的 Live</text>
+      </view>
+    </view>
+    </navigator>
+
+       
+    <navigator>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="https://wx.chaoswang.cn/weapp/image/draft.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的草稿</text>
+      </view>
+    </view>
+    </navigator>
+
+    <navigator>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="https://wx.chaoswang.cn/weapp/image/recent.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>最近浏览</text>
+      </view>
+    </view>
+    </navigator>
+
+
+  </view>
+</view>

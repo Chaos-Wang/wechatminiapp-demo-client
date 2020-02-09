@@ -1,0 +1,105 @@
+<view class="page">
+        <view class="weui-search-bar">
+            <view class="weui-search-bar__form">
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+                    <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+                        <icon type="clear" size="14"></icon>
+                    </view>
+                </view>
+                <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+                    <icon class="weui-icon-search" type="search" size="14"></icon>
+                    <view class="weui-search-bar__text">搜索</view>
+                </label>
+            </view>
+            <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+        </view>
+        <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+        </view>
+
+<view>
+        <image  src="https://wx.chaoswang.cn/weapp/image/素材3.jpg" class="s_imgs" mode="aspectFill"/>
+</view>
+<text>\n</text>
+        <view class="page__bd">
+        <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__bd">
+                <navigator url="./st/st" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="https://wx.chaoswang.cn/weapp/image/st_img.jpg" 
+                        mode="aspectFit"/>
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">生态路线推荐</view>
+                        <view class="weui-media-box__desc">海南岛自然环境优美，有丰富的雨林资源</view>
+                    </view>
+                </navigator>
+            </view>
+            <view class="weui-panel__ft">
+            
+<view class="container">
+<!-- 分割线 -->
+<view class="divLine"></view>
+</view>
+    
+                <navigator url="./wh/wh" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="https://wx.chaoswang.cn/weapp/image/rw_img.jpg"
+                        mode="aspectFit"/>
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">文化路线推荐</view>
+                        <view class="weui-media-box__desc">由于海南自古以来远离政治中心，海南有其独特的人物特色和景观</view>
+                    </view>
+                </navigator>
+            </view>
+            <view class="weui-panel__ft">
+
+<view class="container">
+<!-- 分割线 -->
+<view class="divLine"></view>
+</view>
+
+                <navigator url="./fp/fp" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="https://wx.chaoswang.cn/weapp/image/fp.jpg" mode="aspectFit"/>
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">扶贫路线推荐</view>
+                        <view class="weui-media-box__desc">走进和你现在不一样的世界，获得实现自我价值的机会。</view>
+                    </view>
+                </navigator>
+            </view>
+
+            <view class="weui-panel__ft">
+            </view>
+        </view>
+        </view>    
+
+      <view class="page__bd page__bd_spacing">
+      <view class="button-sp-area">
+            <button class="weui-btn" type="primary" bindtap="personal_entrance">定制个性化路线</button>
+      </view>
+    </view>
+</view>

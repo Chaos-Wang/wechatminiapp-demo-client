@@ -1,0 +1,5 @@
+<!--pages/travel/personal/detail/more/more.wxml-->
+
+<scroll-view class="help-info" scroll-y="true" style="height:{{scrollHeight}}px">
+    <image lazy-load="true" src="https://wx.chaoswang.cn/weapp/image/trip.jpg" mode="widthFix"></image>
+</scroll-view>

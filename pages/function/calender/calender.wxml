@@ -1,0 +1,6 @@
+<view>
+<button bindtap='language_change'>
+  <text>{{tips}}</text>
+</button>
+</view>
+<calendar lunar="{{lunarl}}" weeks-type="{{language}}" days-color="{{dayscolor}}" active-type="square"/>

@@ -1,0 +1,48 @@
+<!--question.wxml-->
+<view class="container">
+    <view class="question-wrp">
+        <view class="question-item">
+            <view class="que-tag">
+                <text class="tag">三亚</text>
+                <text class="tag">交通</text>
+                <text class="tag">test tag 2</text>
+            </view>
+            <view class="que-title">三亚市交通是否方便？该采用什么样的出行方式？</view>
+            <view class="que-content">
+                听说三亚是中国的小芭提亚，请问三亚该采用什么出行方式最方便呢
+            </view>
+
+        <view class="que-operate flex-wrp">
+            <view class="invite flex-item">
+                <image src="https://wx.chaoswang.cn/weapp/image/invite.png"></image>
+                <text>提醒回答</text>
+            </view>
+            <view class="write flex-item">
+                <image src="https://wx.chaoswang.cn/weapp/image/write.png"></image>
+                <text>回复</text>
+            </view>
+        </view>
+        
+    </view>
+    <view class="answer-feed">
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="https://wx.chaoswang.cn/weapp/image/icon1.jpeg"></image>
+                    </view>
+                    <text>Jenny</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">三亚市除了旅游一无所有的说...</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+      </view>
+      </view>
+</view>
+

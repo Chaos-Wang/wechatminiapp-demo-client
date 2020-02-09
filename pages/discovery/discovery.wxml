@@ -1,0 +1,106 @@
+
+<view class="top-tab flex-wrp flex-tab " >
+  <view class="toptab flex-item {{currentNavtab==idx ? 'active' : ''}}" wx:for="{{navTab}}" wx:for-index="idx" wx:for-item="itemName" data-idx="{{idx}}" bindtap="switchTab">
+    {{itemName}}
+  </view>
+</view>
+
+<scroll-view scroll-y="true" class="container discovery withtab" bindscrolltoupper="upper" bindscrolltolower="lower"  scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+  <view class="ctnt0" hidden="{{currentNavtab==0 ? '' : true}}">
+    <swiper class="activity" indicator-dots="{{indicatorDots}}"
+            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="155"/>
+        </swiper-item>
+      </block>
+    </swiper>
+
+    <view class="page">
+    <view class="page__bd">
+        <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">旅行攻略Live</view>
+            <view class="weui-panel__bd">
+                <navigator url="./article?num=1" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="https://wx.chaoswang.cn/weapp/image/素材3.jpg" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">个性化定制体验</view>
+                        <view class="weui-media-box__desc">有幸能抢先体验个性路线真是太棒啦！</view>
+                    </view>
+                </navigator>
+                <navigator url="./article?num=2" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="https://wx.chaoswang.cn/weapp/image/rw_img.jpg" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">文化旅游心得</view>
+                        <view class="weui-media-box__desc">以前很少有参加过文化旅游项目，这次的新尝试让我对文化保护有了更深的思考，总的来说，收获良多、不虚此行！</view>
+                    </view>
+                </navigator>
+                <navigator url="./article?num=3" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="https://wx.chaoswang.cn/weapp/image/st_img.jpg" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">生态旅游心得</view>
+                        <view class="weui-media-box__desc">经过一日的奔波，我们终于在晚上抵达了田心村。这是...</view>
+                    </view>
+                </navigator>
+                <navigator url="./article?num=4" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="https://wx.chaoswang.cn/weapp/image/fp.jpg" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">扶贫旅游心得</view>
+                        <view class="weui-media-box__desc">这一次的扶贫路线真是收获良多啊！</view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+
+
+  </view>
+  </view>
+  </view>
+
+  <view class="ctnt1" hidden="{{currentNavtab==1 ? '' : true}}">
+
+    <block wx:for="{{feed}}" wx:for-index="idx" wx:for-item="item" data-idx="{{idx}}">
+        <view class="feed-item">
+            <view class="feed-source">
+                <a class="">
+                    <view class="avatar">
+                        <image src="{{item.feed_source_img}}"></image>
+                    </view>
+                    <text>{{item.feed_source_name}}{{item.feed_source_txt}}</text>
+                </a>
+                <image class="item-more" mode="aspectFit" src=" https://wx.chaoswang.cn/weapp/image/more.png"></image>
+            </view>
+            <view class="feed-content">
+                <view class="question" qid="{{question_id}}" bindtap="bindQueTap">
+                    <a class="question-link">
+                        <text>{{item.question}}</text>
+                    </a>
+                </view>
+                <view class="answer-body">
+                    <view bindtap="bindQueTap">
+                        <text class="answer-txt" aid="{{answer_id}}">{{item.answer_ctnt}}</text>
+                    </view>
+
+                </view>
+            </view>
+        </view>
+    </block>
+
+
+
+  </view>
+  <view class="ctnt2 placehold" hidden="{{currentNavtab==2 ? '' : true}}">
+    <text>热门</text>
+  </view>
+  <view class="ctnt3 placehold" hidden="{{currentNavtab==3 ? '' : true}}">
+    <text>收藏</text>
+  </view>
+</scroll-view>

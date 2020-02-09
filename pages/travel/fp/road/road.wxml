@@ -1,0 +1,8 @@
+
+<scroll-view class="help-info" scroll-y="true" style="height:{{scrollHeight}}px">
+    <image lazy-load="true" src="https://wx.chaoswang.cn/weapp/image/fp(1).png" mode="widthFix"></image>
+    <image lazy-load="true" src="https://wx.chaoswang.cn/weapp/image/fp(2).png" mode="widthFix"></image>
+    <image lazy-load="true" src="https://wx.chaoswang.cn/weapp/image/fp(3).png" mode="widthFix"></image>
+    <image lazy-load="true" src="https://wx.chaoswang.cn/weapp/image/fp(4).png" mode="widthFix"></image>
+
+</scroll-view>

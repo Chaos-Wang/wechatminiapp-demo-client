@@ -1,0 +1,33 @@
+<!--client/pages/travel/st/st.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">扶贫路线</view>
+        <view class="page__desc">体验公益活动和旅行带来的双重满足感</view>
+    </view>
+   <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">项目推荐</view>
+            <view class="weui-panel__bd">
+            
+            <navigator url="./fp_road/fp_road">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">“护花使者”——花卉种植志愿者</view>
+                    <view class="weui-media-box__desc">文化扶贫体现在义工（志愿者）进入小学支教，并且海南省花卉众多，我们针对海南的花卉种植小镇招募义工（志愿者），也可以带动经济发展。</view>
+                </view>
+            </navigator>
+            </view>
+            <navigator url="./fp_road/fp_road">
+                   <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">“做孩子们的天使”——支教志愿者</view>
+                    <view class="weui-media-box__desc">与海南省“美在心灵”大学生支教志愿者协会合作，在全省13个县市组织开展志愿支教活动，主要分为海口分队、文昌分队、琼海分队、万宁分队、临高分队、乐东分队、三亚分队。</view>
+                </view>
+            </navigator>
+
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+        </view>
+
+        </view>
